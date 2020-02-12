@@ -24,7 +24,7 @@ const getHeaders = () => {
 };
 // Create a WebSocket link:
 const link = new WebSocketLink({
-  uri: "wss://hasura.io/learn/graphql",
+  uri: "wss://todo2-app.herokuapp.com/v1/graphql",
   options: {
     reconnect: true,
     timeout: 30000,
